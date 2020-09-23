@@ -4,32 +4,6 @@ import { FaTimes } from "react-icons/fa";
 import classes from "./sidebar.module.css";
 
 class Sidebar extends Component {
-    // No need for this v2 => Better Approach 
-    // state = {
-    //     isOpen: this.props.isOpen,
-    // };
-
-    // v1 => bad approach
-
-    // state = {
-    //     isOpen: !this.props.isOpen,
-    // };
-
-    // static getDerivedStateFromProps(props, state) {
-    //     return {
-    //         isOpen: !state.isOpen,
-    //     };
-    // }
-
-    // <div
-    //             className={classes.Sidebar}
-    //             style={!this.state.isOpen ? { display: "none" } : {}}
-    //         ></div>
-
-    // componentDidUpdate() {
-    //     console.log('Props', this.props)
-    // }
-
 
     render() {
         return (
