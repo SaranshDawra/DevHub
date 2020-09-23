@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import classes from "./hero.module.css";
-import HeroImg from "../../assets/knowledge.svg";
+import HeroImg from "../../../assets/knowledge.svg";
 
 export default class Hero extends Component {
     render() {
