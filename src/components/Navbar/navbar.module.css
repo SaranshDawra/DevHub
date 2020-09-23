@@ -1,0 +1,81 @@
+.Toolbar {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+}
+
+.Navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #02042B;
+    flex-wrap: wrap;
+}
+
+.Nav {
+    display: flex;
+    width: 80%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Brand {
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.Hamburger {
+    font-size: 25px;
+    outline: none;
+    color: white;
+    display: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.navUl {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    padding-inline-start: 0px;
+}
+
+.Link {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 500px) {
+    .Link {
+        padding: 10px 15px;
+    }
+}
+
+@media (max-width: 426px) {
+
+    .Nav {
+        width: 100%;
+    }
+    
+    .Brand {
+        padding: 20px;
+    }
+    
+    .Hamburger {
+        display: block;
+    }
+
+    .navUl {
+        display: none;
+    }
+
+}
