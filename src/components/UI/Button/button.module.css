@@ -1,0 +1,12 @@
+.Link {
+    width: 2000px;
+    text-decoration: none;
+    background: linear-gradient(138.77deg,#1763BC 21.17%,#1763BC 21.18%,#1D6CC2 94.74%);
+    height: 35px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 25px;
+}
