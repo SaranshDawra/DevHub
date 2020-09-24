@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import Sidebar from "../Sidebar/Sidebar";
 import classes from "./navbar.module.css";
@@ -29,23 +29,23 @@ class Navbar extends Component {
                         />
                         <ul className={classes.navUl}>
                             <li>
-                                <Link to="/learn" className={classes.Link}>
+                                <NavLink to="/learn" className={classes.Link} activeClassName={classes.Selected}>
                                     Learn
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link to="/code" className={classes.Link}>
+                                <NavLink to="/code" className={classes.Link} activeClassName={classes.Selected}>
                                     Code
-                                </Link>
+                                </NavLink>
                             </li>
                             <li>
-                                <Link
+                                <NavLink
                                     to="/gethired"
                                     className={classes.Link}
-                                    style={{ paddingRight: "0px" }}
+                                    activeClassName={classes.Selected}
                                 >
                                     Jobs
-                                </Link>
+                                </NavLink>
                             </li>
                         </ul>
                     </nav>

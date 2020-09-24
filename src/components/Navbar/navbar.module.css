@@ -54,6 +54,10 @@
     cursor: pointer;
 }
 
+.Selected {
+    border-bottom: 3px solid #7FFFD4;
+}
+
 @media (max-width: 500px) {
     .Link {
         padding: 10px 15px;
