@@ -1,7 +1,7 @@
 .Hero {
     width: 100%;
-    height: 90vh;
-    margin-top: 10vh;
+    height: 100vh;
+    /* margin-top: 10vh; */
     clip-path: polygon(0 0, 100% 0%, 100% 80%, 0% 100%);
     background-color: #02042B;
     /* background: linear-gradient(180deg,#0a1157 21.17%,#0a1157 21.18%,#1d51a8 94.74%); */
@@ -10,6 +10,7 @@
 }
 
 .HeroAlignment {
+    margin-top: 10vh;
     width: 80%;
     display: flex;
     justify-content: space-between;
@@ -69,8 +70,7 @@
     }
 
     .Heading::after {
-        display: flex!important;
-        justify-content: center!important;
+        margin-left: 15%!important;
     }
 }
 
@@ -91,7 +91,7 @@
     } */
 
     .Heading::after {
-        margin-left: 24%;
+        margin-left: 24%!important;
     }
 
     .HeroText {
