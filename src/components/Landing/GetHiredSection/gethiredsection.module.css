@@ -1,0 +1,99 @@
+.GetHiredSec {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.GetHiredLanding {
+    margin-top: 50px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.GetHiredText {
+    width: 50%;
+    padding-top: 10%;
+}
+
+.Heading {
+    font-size: 60px;
+    font-weight: 900;
+    color: #02042B;
+}
+
+.Heading::after {
+    content: '';
+    height: 5px;
+    width:100px;
+    background-color: #7FFFD4;
+    display: block;
+    position: absolute;
+}
+
+.Text {
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0a0d47;
+    margin-bottom: 30px;
+}
+
+.GetHiredSecImg {
+    margin-top: 50px;
+    height: 450px;
+    width: 450px;
+}
+
+@media screen and (max-width: 425px) {
+    .GetHiredText {
+        padding-left: 10px!important;
+    }
+
+    .GetHiredSecImg{
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .GetHiredLanding {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .GetHiredText {
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 5px!important;
+    }
+
+    .SvgDiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .GetHiredSecImg {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    .GetHiredText {
+        padding-top: 17%;
+    }
+
+    .Heading {
+        font-size: 50px;
+    }
+
+    .Text {
+        font-size: 20px;
+    }
+
+    .GetHiredSecImg {
+        width: 270px;
+    }
+}
