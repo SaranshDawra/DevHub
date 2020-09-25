@@ -1,0 +1,153 @@
+.CodeSection {
+    height: 90vh;
+    width: 100%;
+    margin-top: 35px;
+    background-color: #f4f8ff;
+    display: flex;
+    justify-content: center;
+}
+
+.CodeSecAlign {
+    height: 100%;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.CodeText {
+    width: 50%;
+}
+
+.CodeImg {
+    height: 400px;
+    width: 400px;
+    margin-top: 50px;
+}
+
+.Heading {
+    font-size: 60px;
+    font-weight: 900;
+    color: #02042B;
+}
+
+.Heading::after {
+    content: '';
+    height: 5px;
+    width:100px;
+    background-color: #7FFFD4;
+    display: block;
+    position: absolute;
+}
+
+.Text {
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0a0d47;
+    margin-bottom: 30px;
+}
+
+@media screen and (max-width: 350px) {
+    .CodeSecAlign {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .CodeText {
+        margin-top: 50px;
+        order: -1;
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .CodeImg {
+        width: 300px!important;
+        height: 300px!important;
+        padding-bottom: 20px;
+    }
+
+    .CodeSection {
+        margin-top: 160px;
+    }
+}
+
+@media screen and (max-width: 450px) and (min-width: 350px) {
+    .CodeSecAlign {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .CodeText {
+        margin-top: 50px;
+        order: -1;
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .CodeImg {
+        width: 250px!important;
+        height: 350px!important;
+        padding-bottom: 20px;
+    }
+
+    .CodeSection {
+        margin-top: 160px;
+    }
+}
+
+@media screen and (max-width: 660px) and (min-width: 451px) {
+    
+    .CodeSecAlign {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .CodeText {
+        margin-top: 50px;
+        padding-left: 15px!important;
+        order: -1;
+        width: 100%;
+    }
+
+    .CodeImg {
+        width: 450px!important;
+        height: 450px!important;
+        padding-bottom: 20px;
+    }
+
+    .CodeSection {
+        margin-top: 160px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .Heading {
+        font-size: 50px;
+    }
+
+    .Text {
+        font-size: 20px;
+    }
+
+    .CodeImg {
+        width: 250px;
+        height: 250px;
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    .Heading {
+        font-size: 50px;
+    }
+
+    .Text {
+        font-size: 20px;
+    }
+
+    .CodeImg {
+        width: 250px;
+        height: 250px;
+    }
+}
+
