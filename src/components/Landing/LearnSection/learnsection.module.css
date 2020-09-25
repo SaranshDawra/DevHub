@@ -1,0 +1,94 @@
+.LearnSec {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+}
+
+.LearnLanding {
+    margin-top: 50px;
+    width: 80%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.LearnText {
+    width: 50%;
+    padding-top: 10%;
+}
+
+.Heading {
+    font-size: 60px;
+    font-weight: 900;
+    color: #02042B;
+}
+
+.Heading::after {
+    content: '';
+    height: 5px;
+    width:100px;
+    background-color: #7FFFD4;
+    display: block;
+    position: absolute;
+}
+
+.Text {
+    padding-top: 20px;
+    font-size: 25px;
+    line-height: 30px;
+    color: #0a0d47;
+    margin-bottom: 30px;
+}
+
+.LearnSecImg {
+    margin-top: 50px;
+    height: 450px;
+    width: 450px;
+}
+@media screen and (max-width: 425px) {
+    .LearnText {
+        padding-left: 10px!important;
+    }
+}
+
+@media screen and (max-width: 660px) {
+    .LearnLanding {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .LearnText {
+        width: 100%;
+        padding-left: 15px;
+        padding-top: 5px!important;
+    }
+
+    .SvgDiv {
+        display: flex;
+        justify-content: center;
+    }
+
+    .LearnSecImg {
+        height: 200px;
+    }
+}
+
+@media screen and (max-width: 940px) {
+
+    .LearnText {
+        padding-top: 17%;
+    }
+
+    .Heading {
+        font-size: 50px;
+    }
+
+    .Text {
+        font-size: 20px;
+    }
+
+    .LearnSecImg {
+        width: 270px;
+    }
+}
