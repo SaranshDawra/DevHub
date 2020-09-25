@@ -8,10 +8,9 @@ class Sidebar extends Component {
     render() {
         return (
             <div
-                className={classes.Sidebar}
-                style={!this.props.isOpen ? { display: "none" } : {}}
+                className={this.props.isOpen ? classes.Sidebar : classes.SidebarClosed}
             >
-                <nav className={classes.Side}>
+                <nav className={this.props.isOpen ? classes.Side : classes.SideClosed}>
                     <ul className={classes.sideUl}>
                         <li className={classes.HeaderLi}>
                             <Link to="/" onClick={this.props.clicked} className={classes.Menu}>Menu</Link>
