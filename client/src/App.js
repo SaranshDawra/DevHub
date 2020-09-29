@@ -13,7 +13,8 @@ class App extends Component {
                 <Navbar />
                 <Switch>
                     <Route path="/" exact component={Landing}/>
-                    <Route path="/learn" component={Learn} />
+                    <Route path="/learn" exact component={Learn} />
+                    <Route path="/add" exact component={Landing} />
                     <Route path="/gethired" component={GetHired} />
                     <Route path="/code" component={Code} />
                 </Switch>
