@@ -1,0 +1,23 @@
+.Container {
+    margin-top: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.InnerContainer {
+    width: 80%;
+    height: 100%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+@media screen and (max-width: 890px) {
+    .InnerContainer {
+        justify-content: center;
+    }
+}
