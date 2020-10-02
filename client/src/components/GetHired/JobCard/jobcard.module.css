@@ -1,0 +1,85 @@
+.CardContainer {
+    height: 250px;
+    width: 375px;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-bottom: 20px;
+    /* border-left: 7px solid #02042B; */
+    box-shadow: 2px 2px 10px #02042B;
+    position: relative;
+    background-color: #02042B;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.CardContainer::before {
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: aquamarine;
+    clip-path: polygon(0% 100%, 100% 90%, 100% 100%, 0% 100%);
+}
+
+@media screen and (max-width: 890px) {
+    .CardContainer {
+        width: 400px;
+    }
+}
+
+.Company {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Title {
+    margin-top: 8px;
+    color: #ddd;
+    font-size: 18px;
+}
+
+.Cont {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+}
+
+.Circle {
+    height: 5px;
+    width: 5px;
+    border-radius: 50%;
+    border: 2px solid rgb(75, 235, 235);
+}
+
+.Location {
+    margin-left: 5px;
+    color: #ddd;
+}
+
+.Type {
+    margin-left: 5px;
+    color: #ddd;
+}
+
+.Btn {
+    background-color: aquamarine;
+    width: 120px;
+    margin-top: 8px;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.Link {
+    text-decoration: none;
+    color: #02042B;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 15px;
+}
+
+.Link:active {
+    color: #02042B;
+}
