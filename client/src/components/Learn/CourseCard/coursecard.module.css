@@ -1,0 +1,109 @@
+.Container {
+    box-sizing: border-box;
+    width: 400px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 10px;
+    background-color: #02042B;
+    color: white;
+    padding: 30px 20px 20px 25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 15px rgba(25, 52, 143, 0.5);
+}
+
+.Num {
+    height: 40px;
+    width: 40px;
+    background-color: aliceblue;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.Count {
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+    color: #02042B;
+}
+
+.Title {
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 800;
+    color: #7FFFD4;;
+}
+
+.LevelContainer {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.Circle {
+    height: 10px;
+    width: 10px;
+    border: 2px solid rgb(69, 227, 255);
+    border-radius: 50%;
+}
+
+.Level {
+    font-size: 25px;
+    padding-left: 10px;
+}
+
+.Description {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #ddd;
+}
+
+.Tags {
+    display: flex;
+    margin-top: 20px;
+}
+
+.TagContainer {
+    display: flex;
+    margin-right: 10px;
+    align-items: center;
+}
+
+.TagCircle{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(237, 240, 92);
+    border-radius: 50%;
+}
+
+.TagName {
+    font-size: 17px;
+    margin-left: 5px;
+}
+
+.Link {
+    width: 100%;
+    text-decoration: none;
+    color: #02042B;
+}
+
+.Link:active {
+    color: #02042B;
+}
+
+.Button {
+    margin-top: 15px;
+    height: 35px;
+    outline: none;
+    text-decoration: none;
+    border: none;
+    background-color: #7FFFD4;
+    color: #02042B;
+    border-radius: 10px;
+}
+
+.BtnText {
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}

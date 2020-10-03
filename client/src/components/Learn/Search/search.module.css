@@ -1,0 +1,93 @@
+.Section {
+    width: 100%;
+    height: 80vh;
+    background-color: #02042B;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.Content {
+    text-align: center;
+    width: 60%;
+    padding-top: 100px;
+}
+
+.Heading {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+    color: #7FFFD4;
+}
+
+.Text {
+    padding: 0;
+    margin: 0;
+    color: #ddd;
+}
+
+.Form {
+    position: relative;
+    padding: 35px;
+}
+
+.Input {
+    text-indent: 40px;
+    padding: 10px;
+    width: 70%;
+    font-size: 25px;
+    font-weight: lighter;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    height: 40px;
+}
+
+.SearchIcon {
+    position: absolute;
+    padding-top: 18px;
+    padding-left: 15px;
+    font-size: 20px;
+    color: #02042B;
+}
+
+.AddButton {
+    outline: none;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.AddIcon {
+    font-size: 25px;
+}
+
+.AddResource {
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 5px;
+    padding: 0;
+}
+
+@media screen and (max-width: 375px) {
+    .AddButton {
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 475px) {
+    .Section {
+        height: 85vh;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .Content {
+        width: 80%;
+    }
+}
