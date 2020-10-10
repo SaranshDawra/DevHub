@@ -5,6 +5,7 @@ import Learn from "./components/Learn/Learn";
 import Code from "./components/Code/Code";
 import GetHired from "./components/GetHired/GetHired";
 import Navbar from "./components/Navbar/Navbar";
+import AddCourse from './components/AddCourse/AddCourse';
 
 class App extends Component {
     render() {
@@ -14,7 +15,7 @@ class App extends Component {
                 <Switch>
                     <Route path="/" exact component={Landing}/>
                     <Route path="/learn" exact component={Learn} />
-                    <Route path="/add" exact component={Landing} />
+                    <Route path="/add" exact component={AddCourse} />
                     <Route path="/gethired" component={GetHired} />
                     <Route path="/code" component={Code} />
                 </Switch>
