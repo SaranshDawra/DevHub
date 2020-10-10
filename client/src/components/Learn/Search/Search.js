@@ -10,9 +10,7 @@ const Search = (props) => {
             <div className={classes.Content}>
                 <h2 className={classes.Heading}>Learn</h2>
                 <p className={classes.Text}>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Mauris venenatis ante at lorem pretium elementum. Interdum
-                    et malesuada fames ac ante ipsum primis in faucibus.
+                    Example: node, react, frontend, backend, git, vue, version-control, python, java, javascript, express, electron, android, dart, flutter, react-native, swift
                 </p>
                 <div className={classes.Form}>
                     <form onSubmit={props.submit}>

@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import Search from "./Search/Search";
 import CourseCard from "./CourseCard/CourseCard";
 import Loader from "../UI/Loader/Loader";
+import ItemNotFound from './ItemNotFound/ItemNotFound';
 import classes from "./learn.module.css";
 import axios from "axios";
 
@@ -79,7 +80,7 @@ class Learn extends Component {
                               />
                           );
                       })
-                    : null;
+                    : <ItemNotFound />;
         }
 
         return (
