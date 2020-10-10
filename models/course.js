@@ -7,7 +7,7 @@ const courseSchema = new mongoose.Schema(
             type: String,
             required: true,
             minlength: 3,
-            maxlength: 255,
+            maxlength: 40,
         },
         tags: {
             type: Array,
@@ -17,19 +17,13 @@ const courseSchema = new mongoose.Schema(
             type: String,
             required: true,
             minlength: 3,
-            maxlength: 255,
+            maxlength: 70,
         },
         link: {
             type: String,
             required: true,
             minlength: 3,
             maxlength: 255,
-        },
-        language: {
-            type: String,
-            required: true,
-            minlength: 3,
-            maxlength: 50,
         },
         level: {
             type: String,
@@ -45,11 +39,10 @@ const Course = mongoose.model("Course", courseSchema);
 
 function validateCourse(course) {
     const schema = Joi.object({
-        title: Joi.string().min(3).max(255).required(),
+        title: Joi.string().min(3).max(40).required(),
         tags: Joi.array().required(),
-        description: Joi.string().min(3).max(255).required(),
+        description: Joi.string().min(3).max(70).required(),
         link: Joi.string().min(3).max(255).required(),
-        language: Joi.string().min(3).max(50).required(),
         level: Joi.string().min(3).max(50).required(),
     });
 

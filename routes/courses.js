@@ -22,7 +22,6 @@ router.post("/", async (req, res) => {
     const { error } = validateCourse(req.body);
 
     if (error) {
-        console.log("I am here");
         return res.status(400).send(error.details[0].message);
     }
 
@@ -31,7 +30,6 @@ router.post("/", async (req, res) => {
         tags: req.body.tags,
         description: req.body.description,
         link: req.body.link,
-        language: req.body.language,
         level: req.body.level,
     });
 
