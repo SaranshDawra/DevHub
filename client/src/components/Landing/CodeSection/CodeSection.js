@@ -12,10 +12,7 @@ const CodeSection = () => {
                 <div className={classes.CodeText}>
                         <div className={classes.Heading}>CODE.</div>
                         <div className={classes.Text}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Mauris venenatis ante at lorem pretium
-                            elementum. Interdum et malesuada fames ac ante ipsum
-                            primis in faucibus.
+                            Level up your coding skills and prepare for your coding interviews. Work through a single problem each day. Learn all the most popular interview topics one concept at a time.
                         </div>
                         <Button to="/code" value="Practice" />
                 </div>

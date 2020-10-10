@@ -1,0 +1,54 @@
+.Footer {
+    margin-top: 30px;
+    background-color: #02042B;
+    color: white;
+    height: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 35px;
+}
+
+.Text {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.Link {
+    text-decoration: none;
+    color: white;
+}
+
+.Link:active {
+    color: white;
+}
+
+.Icons {
+    color: white;
+}
+
+.SocialLink {
+    text-decoration: none;
+    color: white;
+    margin: 5px;
+    font-size: 25px;
+}
+
+.Icon {
+    transition: transform .2s;
+}
+
+.Icon:hover {
+    transform: scale(1.2);
+}
+
+.SocialLink:active {
+    color: white;
+}
+
+@media screen and (max-width: 660px) {
+    .Footer {
+        margin-top: 150px;
+    }
+}

@@ -10,10 +10,7 @@ const GetHiredSection = () => {
                 <div className={classes.GetHiredText}>
                     <div className={classes.Heading}>GET HIRED.</div>
                     <div className={classes.Text}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris venenatis ante at lorem pretium elementum.
-                        Interdum et malesuada fames ac ante ipsum primis in
-                        faucibus.
+                        Devhub is the gateway to your career as a software developer. We offer developers an innovative portal that provides job seekers with the best opportunity to get hired.
                     </div>
                     <Button to="/gethired" value="Get Hired" />
                 </div>

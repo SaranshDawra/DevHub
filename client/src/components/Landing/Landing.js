@@ -3,6 +3,7 @@ import Hero from './Hero/Hero';
 import LearnSection from './LearnSection/LearnSection';
 import CodeSection from './CodeSection/CodeSection';
 import GetHiredSection from './GetHiredSection/GetHiredSection';
+import Footer from './Footer/Footer';
 
 class Landing extends Component {
     render() {
@@ -12,6 +13,7 @@ class Landing extends Component {
                 <LearnSection />
                 <CodeSection />
                 <GetHiredSection />
+                <Footer />
             </div>
         )
     }

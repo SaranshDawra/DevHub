@@ -10,10 +10,9 @@ const LearnSection = () => {
                 <div className={classes.LearnText}>
                     <div className={classes.Heading}>LEARN.</div>
                     <div className={classes.Text}>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Mauris venenatis ante at lorem pretium elementum.
-                        Interdum et malesuada fames ac ante ipsum primis in
-                        faucibus.
+                        For Developers, By Developers!
+                        <br />
+                        Get the best resources and learn at your own pace. It's perfect for learners who want to learn how to code online by getting practical, hands-on experience.
                     </div>
                     <Button to="/learn" value="Resources" />
                 </div>

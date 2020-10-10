@@ -10,10 +10,10 @@ export default class Hero extends Component {
                     <div className={classes.HeroText}>
                         <div className={classes.Heading}>DEVHUB</div>
                         <div className={classes.Text}>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit. Mauris venenatis ante at lorem pretium
-                            elementum. Interdum et malesuada fames ac ante ipsum
-                            primis in faucibus.
+                            Devhub is the best platform to help you enhance your
+                            skills, expand your knowledge and prepare for
+                            technical interviews. If you are new to programming,
+                            we recommend you start your journey here.
                         </div>
                     </div>
                     <img
