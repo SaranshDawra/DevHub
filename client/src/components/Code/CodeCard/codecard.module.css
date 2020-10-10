@@ -1,0 +1,59 @@
+.Card {
+    width: 70%;
+    background-color: #02042B;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 25px;
+    border-radius: 25px;
+    box-shadow: 5px 5px 13px #193f92;
+}
+
+.Problem {
+    font-size: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Problem::before {
+    content: 'Problem Statement';
+    color: aquamarine;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.sampleOne {
+    font-size: 17px;
+    margin: 10px 0px;
+}
+
+.sampleOne::before {
+    content: 'Sample 1';
+    color: aquamarine;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sampleTwo {
+    font-size: 17px;
+    margin: 10px 0px;
+}
+
+.sampleTwo::before {
+    content: 'Sample 2';
+    color: aquamarine;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.sample {
+    margin: 3px 0px;
+    color: #ddd;
+}
+
+@media screen and (max-width: 500px) {
+    .Card {
+        margin-top: 150px;
+    }
+}
