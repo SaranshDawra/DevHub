@@ -91,7 +91,7 @@ class AddCourse extends Component {
         };
 
         axios
-            .post("http://localhost:5000/api/courses", data)
+            .post("/api/courses", data)
             .then((res) => console.log(res.data))
             .catch((err) => {
                 this.setState({
