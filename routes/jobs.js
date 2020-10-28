@@ -4,7 +4,7 @@ const axios = require('axios');
 const router = express();
 
 router.get('/', async (req, res) => {
-    const job = await axios.get('https://jobs.github.com/positions.json?');
+    const job = await axios.get('https://jobs.github.com/positions.json?page=1&search=code');
     const data = await job.data;
 
     res.send(data);
