@@ -42,7 +42,7 @@ cd DevHub
 * Create a `.env` file and add the following
 
 ```bash
-MONGODBURL=Your MongoDB URL
+MONGODB_URI=Your MongoDB URL
 ```
 
 ##### Install Dependencies
